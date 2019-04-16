@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import AddUser from './AddUser'
+import Login from './Login'
 
 
 class UserHome extends Component{
@@ -18,6 +19,8 @@ class UserHome extends Component{
 
 
                     <Route exact path='/adduser' component={AddUser}/>
+                    <Route exact path='/login' component={Login}/>
+                    <Route exact path='/login' component={Login}/>
                 </Router>
             </div>
         );
